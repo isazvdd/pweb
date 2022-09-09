@@ -1,0 +1,88 @@
+html{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box div {
+  width: 100px;
+  height: 100px;
+}
+
+.flex-container {
+  justify-content: space-around;
+}
+
+p.verso{
+  color: blue;
+}
+
+p.mote{
+  color: red;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+ }
+ 
+a:hover {
+  color: rgb(255, 0, 0);
+  text-decoration: none;
+
+}
+
+a:visited {
+  color: rgb(111, 5, 197);
+  text-decoration: none;
+}
+
+a:active {
+  color: rgb(133, 133, 133);
+  text-decoration: none;
+}
+
+img.poeta {
+  display: block;
+  /* margin: 0 auto; */
+
+  border-radius: 50%;
+  width: 75px; 
+}
+
+table {
+  margin: 0 auto;
+  border-radius: 25%;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid rgb(153, 145, 145);
+
+}
+
+th {
+  background-color: #8c8f8c;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2
+}
+
+th.drinks {
+  background-color: rgb(100, 99, 99);
+  color: black;
+  align-items: center;
+  text-align: center;
+  border-radius: 25px 25px 0px 0px;
+}
