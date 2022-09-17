@@ -34,8 +34,6 @@ const embaralharOpc = (bebidas) => {
   carregarDiv(bebidas)
 }
 
-
-
 let botao = document.getElementById('botaoCarregar')
 botao.addEventListener('click', () => carregarDiv(bebidas))
 
