@@ -35,19 +35,6 @@ const embaralharOpc = (bebidas) => {
 }
 
 
-// const botaoOrdenar = document.getElementById("botaoOrdenar")
-//     botaoOrdenar.addEventListener("click", () => {
-//     gins.sort();
-//     carregarDiv();
-// })
-
-// const botaoEmbaralhar = document.getElementById("botaoEmbaralhar")
-// botaoEmbaralhar.addEventListener("click", () =>{
-//   gins.sort(()=> Math.random() - 0.5);
-//   carregarDiv();
-// })
-
-
 
 let botao = document.getElementById('botaoCarregar')
 botao.addEventListener('click', () => carregarDiv(bebidas))
