@@ -1,4 +1,4 @@
-# pweb
+# Pragramação Web - 2022.2
 
 Atividades avaliativas da disciplina de Programação Web, 2022.2.
 
