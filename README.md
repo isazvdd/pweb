@@ -1,5 +1,4 @@
-# Pragramação Web - 2022.2
+# Programação Web
 
-Atividades avaliativas da disciplina de Programação Web, 2022.2.
-
-Os arquivos inseridos neste repositório é a solução [dessas páginas](https://sites.google.com/view/fabricio10/p%C3%A1gina-inicial/cursos/pweb).
+Solução para a Receita descrita como: Tarefa 5 - json
+[dessa página](https://sites.google.com/view/fabricio10/p%C3%A1gina-inicial/cursos/pweb/json4)
