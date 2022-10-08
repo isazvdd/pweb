@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+  <!-- <script src="script.js" type="module" defer></script> -->
+
+  <title>Json-5</title>
+</head>
+<body>
+<!-- 
+  <div id="content" style="display: none"></div>
+
+  <div id="loading" style="display: block">
+    Loading...
+  </div> -->
+
+  <div>    
+    <select name="amounts" id="amounts">
+      <option value="3" selected>3</option>
+      <option value="5">5</option>
+      <option value="10">10</option>
+      <option value="15">15</option>
+      <option value="20">20</option>
+      <option value="25">25</option>
+      <option value="30">30</option>
+    </select>
+    <button id="loadButton">Carregar usuários</button>
+  </div>
+  <div id="beersDiv"></div>
+</body>
+
+<script>
+  let amount = 3;
+
+async function loadBeers(){
+    const select = document.getElementById("amounts")
+    amount = amounts.value
+
+    try{
+        let res = await fetch(`https://random-data-api.com/api/v2/users?size=${amount}`)
+        const beer = await res.json()
+        const header = ["Nome", "Sobrenome", "Nome de usuário", "Email"]
+        const object = ["first_name", "last_name", "username", "email"]
+        const div = document.getElementById("beersDiv")
+        div.innerHTML = createTable(beer, header, object)
+    } catch(err){
+        document.getElementById("beersDiv").innerHTML = "Sinto muito, estamos fora do ar! Volte mais tarde."
+    }
+}
+
+let botao = document.getElementById("loadButton")
+botao.addEventListener("click", () => loadBeers())
+</script>
+
+
+</html>
