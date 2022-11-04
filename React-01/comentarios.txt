@@ -1,0 +1,7 @@
+O primeiro parâmetro do ReactDOM.render() é um código HTML ("o que" o React deve renderizar) e o segundo parâmetro continua sendo um elemento do DOM ("onde" o React deve renderizar). 
+
+Ao especificar type="text/babel" faremos com que o navegador ignore o código, pois ele não reconhece esse tipo de script. Entretanto, o código desta biblioteca sabe e vai processar o seu <script type="text/babel"> e transformá-lo em código JavaScript que o navegador sabe executar. Esse processo é chamado de transpilação.
+
+ Ao escrevermos código em React, será código JSX e não JavaScript puro que usaremos para expressar nossas marcas. 
+
+ 
