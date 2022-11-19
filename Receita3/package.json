@@ -1,0 +1,16 @@
+{
+  "name": "receita1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "next": "^10.0.7"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Solução para a Receita descrita como: Unidade 2 - Receita 3 [dessa página](https://sites.google.com/view/fabricio10/p%C3%A1gina-inicial/cursos/pweb/receita3)"
+}
